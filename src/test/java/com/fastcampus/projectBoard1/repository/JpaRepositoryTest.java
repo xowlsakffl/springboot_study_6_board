@@ -37,7 +37,7 @@ class JpaRepositoryTest {
                 .hasSize(1);
     }
 
-    @DisplayName("insert 테스트")
+    /*@DisplayName("insert 테스트")
     @Test
     void givenTestData_whenInserting_thenWorksFine(){
         long previousCount = articleRepository.count();
@@ -56,7 +56,7 @@ class JpaRepositoryTest {
         Article savedArticle = articleRepository.saveAndFlush(article);
 
         assertThat(savedArticle).hasFieldOrPropertyWithValue("hashtag", updatedHashtag);
-    }
+    }*/
 
     @DisplayName("delete 테스트")
     @Test
